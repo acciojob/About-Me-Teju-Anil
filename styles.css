@@ -1,1 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin: 2em;
+}
+
+.skill {
+    margin-bottom: 1em;
+}
+
+.skill-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.progress {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    background-color: #333;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.percentage {
+    margin-left: 10px;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
 
